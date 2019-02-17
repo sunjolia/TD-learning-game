@@ -15,6 +15,24 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         Vector3 dir = target.position - transform.position;
-        transform.Translate(dir.normalized * speed); 
+        transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World); 
+
+        if (Vector3.Distance(transform.position, target.position) <= 0.2f) // If we've reached waypoint
+        {
+            GetNextWaypoint();
+        }
+    }
+
+    void GetNextWaypoint()
+    {
+
+        if (waypointIndex >= Waypoints.points.Length - 1) // if out of bounds, destroy enemy and return
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        waypointIndex++;
+        target = Waypoints.points[waypointIndex];
     }
 }
