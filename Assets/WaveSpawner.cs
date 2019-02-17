@@ -9,7 +9,7 @@ public class WaveSpawner : MonoBehaviour
 
     public Transform spawnPoint;
 
-    public float timeBetweenWaves = 5f;
+    public float timeBetweenWaves = 20f;
     private float countdown = 2f;
     private int waveIndex = 0;
     public Text waveCoundownText;
@@ -21,7 +21,8 @@ public class WaveSpawner : MonoBehaviour
             countdown = timeBetweenWaves;
         }
         countdown -= Time.deltaTime;
-        waveCoundownText.text = Mathf.Round(countdown).ToString();
+        countdown = Mathf.Clamp(countdown,0f,Mathf.Infinity);
+        waveCoundownText.text = string.Format("{0:00.00}",countdown);
     }
 
     IEnumerator SpawnWave()

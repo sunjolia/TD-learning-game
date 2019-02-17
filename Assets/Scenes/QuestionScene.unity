@@ -191,7 +191,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1417516}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1417518}
+        m_MethodName: isCorrect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1417516
@@ -243,6 +254,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db8bfe4fe243b40769c6f7262c0dd6f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctAnswer: {fileID: 677097477}
+  ans1: {fileID: 591426694}
+  ans2: {fileID: 480469774}
+  ans3: {fileID: 677097477}
+  ans4: {fileID: 1681979023}
+  ans: {fileID: 0}
+  answer3: {fileID: 0}
 --- !u!1 &6126777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,7 +1475,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681979021}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
