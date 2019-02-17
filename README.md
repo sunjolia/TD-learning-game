@@ -9,6 +9,7 @@ either download Unity and open the file, or see the Giphy captures below.
 
 ### Game Previews
 ![](gif2.gif)
+
 ![](gif.gif)
 
 The blue spheres are enemies, which are spawned from their base tower in the bottom left of the screen. Every time an answer is answered 
