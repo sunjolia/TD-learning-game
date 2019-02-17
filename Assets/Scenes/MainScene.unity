@@ -2197,7 +2197,7 @@ PrefabInstance:
     - target: {fileID: 4171064086628866246, guid: 7e2f85020610874489f5ff38075181c3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4171064086628866246, guid: 7e2f85020610874489f5ff38075181c3,
         type: 3}
@@ -6076,14 +6076,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5534504965394355935}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711019013}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 2, z: -65.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &720042282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12121,6 +12113,7 @@ MonoBehaviour:
   range: 15
   enemyTag: Enemy
   partToRotate: {fileID: 1646806056}
+  turnSpeed: 10
 --- !u!1001 &1430827019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14926,7 +14919,7 @@ Transform:
   - {fileID: 1400140431}
   - {fileID: 179444718}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1829009195
 MonoBehaviour:
@@ -17079,6 +17072,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 20bfb4291f41f984d8ea01bed5392d00, type: 3}
       propertyPath: m_LocalScale.y
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 20bfb4291f41f984d8ea01bed5392d00, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20bfb4291f41f984d8ea01bed5392d00, type: 3}
