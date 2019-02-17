@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Imports/Free medieval weapons/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 5f67125eb180449d5a6615ba9ee8f459
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 7059bb15cf89d4569bbb97d1d37e1bbc
   m_configObjects: {}
