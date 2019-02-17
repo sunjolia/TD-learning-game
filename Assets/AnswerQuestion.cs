@@ -1,18 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class AnswerQuestion : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Toggle correctAnswer;
+    public void isCorrect()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(correctAnswer.isOn)
+        {
+            Debug.Log("Correct!");
+            SceneManager.LoadScene(1);
+        }
+        else
+        {
+            Debug.Log("Not correct!");
+            SceneManager.LoadScene(1);
+        }
     }
 }
