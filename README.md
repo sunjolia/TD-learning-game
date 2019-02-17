@@ -10,8 +10,6 @@ either download Unity and open the file, or see the Giphy captures below.
 ### Game Previews
 ![](gifLong.gif)
 
-![](gif.gif)
-
 The blue spheres are enemies, which are spawned from their base tower in the bottom left of the screen. Every time an answer is answered 
 correctly, the player has the option of placing either a defense tower or a defense cannon somewhere on the game map to help defend his/her
 red base in the top right of the screen.
